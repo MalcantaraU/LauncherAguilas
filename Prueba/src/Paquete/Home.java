@@ -41,19 +41,7 @@ public class Home extends javax.swing.JFrame {
             Utility.SetImageLabel(ListaEscudos[x], "src/Imagen/LauncherButton"+ x+".png");
         }
         
-        
-        
-        
-        
-       Showpanel();
-       
-        
-        
-        
-            
-    
-  
-             
+       Showpanel();   
     }
 
     /**
@@ -111,7 +99,7 @@ public class Home extends javax.swing.JFrame {
         );
         Container2Layout.setVerticalGroup(
             Container2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 880, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout ContainerLayout = new javax.swing.GroupLayout(Container);
